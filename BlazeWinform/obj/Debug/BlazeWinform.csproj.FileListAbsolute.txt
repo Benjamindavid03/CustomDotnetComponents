@@ -1,0 +1,4 @@
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\bin\Debug\BlazeWinform.dll
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\bin\Debug\BlazeWinform.pdb
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Debug\BlazeWinform.dll
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Debug\BlazeWinform.pdb

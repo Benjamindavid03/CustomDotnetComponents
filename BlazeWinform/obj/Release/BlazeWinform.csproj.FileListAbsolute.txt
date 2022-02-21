@@ -1,0 +1,7 @@
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\bin\Release\Blaze.Winform.dll
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\bin\Release\Blaze.Winform.pdb
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Release\Blaze.Winform.dll
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Release\Blaze.Winform.pdb
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Release\BlazeWinform.csproj.GenerateResource.Cache
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Release\Blaze.Winform.B_TextBox.resources
+D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Release\Blaze.Winform.B_TextField.resources

@@ -28,22 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.b_TextField1 = new Blaze.Winform.B_TextField();
             this.b_TextBox2 = new Blaze.Winform.B_TextBox();
             this.b_TextBox1 = new Blaze.Winform.B_TextBox();
+            this.b_TextField1 = new Blaze.Winform.B_TextField();
             this.SuspendLayout();
-            // 
-            // b_TextField1
-            // 
-            this.b_TextField1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.b_TextField1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.b_TextField1.FieldFont = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_TextField1.FieldText = "Hi. Hello";
-            this.b_TextField1.LabelMessage = "Enter your message";
-            this.b_TextField1.Location = new System.Drawing.Point(31, 81);
-            this.b_TextField1.Name = "b_TextField1";
-            this.b_TextField1.Size = new System.Drawing.Size(274, 59);
-            this.b_TextField1.TabIndex = 2;
             // 
             // b_TextBox2
             // 
@@ -72,6 +60,17 @@
             this.b_TextBox1.WaterMarkColor = System.Drawing.Color.Gray;
             this.b_TextBox1.WaterMarkFont = null;
             this.b_TextBox1.WaterMarkText = "Your Text Here";
+            // 
+            // b_TextField1
+            // 
+            this.b_TextField1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.b_TextField1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.b_TextField1.FieldFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_TextField1.LabelMessage = "Enter your Label for the Field here";
+            this.b_TextField1.Location = new System.Drawing.Point(31, 81);
+            this.b_TextField1.Name = "b_TextField1";
+            this.b_TextField1.Size = new System.Drawing.Size(288, 61);
+            this.b_TextField1.TabIndex = 2;
             // 
             // Form1
             // 

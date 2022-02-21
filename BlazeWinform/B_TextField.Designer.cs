@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.b_TextBox1 = new Blaze.Winform.B_TextBox();
+            this.b_TextBox2 = new Blaze.Winform.B_TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -37,32 +37,31 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(166, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "Enter your Label for the Field here";
             // 
-            // b_TextBox1
+            // b_TextBox2
             // 
-            this.b_TextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.b_TextBox1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.b_TextBox1.ForeColor = System.Drawing.Color.Gray;
-            this.b_TextBox1.Location = new System.Drawing.Point(14, 27);
-            this.b_TextBox1.Name = "b_TextBox1";
-            this.b_TextBox1.Size = new System.Drawing.Size(247, 20);
-            this.b_TextBox1.TabIndex = 0;
-            this.b_TextBox1.Text = "Your Text Here";
-            this.b_TextBox1.WaterMarkColor = System.Drawing.Color.Gray;
-            this.b_TextBox1.WaterMarkFont = null;
-            this.b_TextBox1.WaterMarkText = "Your Text Here";
+            this.b_TextBox2.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.b_TextBox2.ForeColor = System.Drawing.Color.Gray;
+            this.b_TextBox2.Location = new System.Drawing.Point(30, 30);
+            this.b_TextBox2.Name = "b_TextBox2";
+            this.b_TextBox2.Size = new System.Drawing.Size(242, 20);
+            this.b_TextBox2.TabIndex = 2;
+            this.b_TextBox2.Text = "Your Text Here";
+            this.b_TextBox2.WaterMarkColor = System.Drawing.Color.Gray;
+            this.b_TextBox2.WaterMarkFont = null;
+            this.b_TextBox2.WaterMarkText = "Your Text Here";
             // 
             // B_TextField
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.b_TextBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.b_TextBox1);
             this.Name = "B_TextField";
-            this.Size = new System.Drawing.Size(275, 61);
+            this.Size = new System.Drawing.Size(288, 61);
             this.Load += new System.EventHandler(this.B_TextField_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -73,5 +72,6 @@
 
         private B_TextBox b_TextBox1;
         private System.Windows.Forms.Label label1;
+        private B_TextBox b_TextBox2;
     }
 }

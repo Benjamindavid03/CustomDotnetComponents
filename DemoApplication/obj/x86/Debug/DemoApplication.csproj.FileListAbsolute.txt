@@ -7,3 +7,13 @@ D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\DemoApplication\obj
 D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\DemoApplication\obj\x86\Debug\DemoApplication.csproj.GenerateResource.Cache
 D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\DemoApplication\obj\x86\Debug\DemoApplication.exe
 D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\DemoApplication\obj\x86\Debug\DemoApplication.pdb
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\bin\Debug\DemoApplication.exe
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\bin\Debug\DemoApplication.pdb
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\bin\Debug\Blaze.Winform.dll
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\bin\Debug\Blaze.Winform.pdb
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.csprojResolveAssemblyReference.cache
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.Form1.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.Properties.Resources.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.csproj.GenerateResource.Cache
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.exe
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\DemoApplication\obj\x86\Debug\DemoApplication.pdb

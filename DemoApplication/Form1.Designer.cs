@@ -105,9 +105,6 @@
         private Blaze.Winform.B_TextBox b_TextBox2;
         private Blaze.Winform.B_TextField b_TextField1;
         private Blaze.Winform.B_ImagePicker imagePicker1;
-
-
-
     }
 }
 

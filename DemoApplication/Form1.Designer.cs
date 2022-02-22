@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.imagePicker1 = new Blaze.Winform.ImagePicker();
+            this.imagePicker1 = new Blaze.Winform.B_ImagePicker();
             this.b_TextField1 = new Blaze.Winform.B_TextField();
             this.b_TextBox2 = new Blaze.Winform.B_TextBox();
             this.b_TextBox1 = new Blaze.Winform.B_TextBox();
@@ -104,7 +104,7 @@
         private Blaze.Winform.B_TextBox b_TextBox1;
         private Blaze.Winform.B_TextBox b_TextBox2;
         private Blaze.Winform.B_TextField b_TextField1;
-        private Blaze.Winform.ImagePicker imagePicker1;
+        private Blaze.Winform.B_ImagePicker imagePicker1;
 
 
 

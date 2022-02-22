@@ -51,11 +51,11 @@
     <Compile Include="Components\B_TextField.Designer.cs">
       <DependentUpon>B_TextField.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\ImagePicker.cs">
+    <Compile Include="Components\B_ImagePicker.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\ImagePicker.Designer.cs">
-      <DependentUpon>ImagePicker.cs</DependentUpon>
+    <Compile Include="Components\B_ImagePicker.Designer.cs">
+      <DependentUpon>B_ImagePicker.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,8 +66,8 @@
     <EmbeddedResource Include="Components\B_TextField.resx">
       <DependentUpon>B_TextField.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\ImagePicker.resx">
-      <DependentUpon>ImagePicker.cs</DependentUpon>
+    <EmbeddedResource Include="Components\B_ImagePicker.resx">
+      <DependentUpon>B_ImagePicker.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

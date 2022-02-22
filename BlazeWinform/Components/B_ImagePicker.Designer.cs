@@ -1,6 +1,6 @@
 ﻿namespace Blaze.Winform
 {
-    partial class ImagePicker
+    partial class B_ImagePicker
     {
         /// <summary> 
         /// Required designer variable.

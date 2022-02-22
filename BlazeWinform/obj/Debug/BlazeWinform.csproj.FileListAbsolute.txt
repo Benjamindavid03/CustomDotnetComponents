@@ -9,4 +9,4 @@ C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Bl
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\BlazeWinform.csproj.GenerateResource.Cache
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.dll
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.pdb
-C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.ImagePicker.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.B_ImagePicker.resources

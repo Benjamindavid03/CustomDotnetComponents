@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Blaze.Winform
 {
-    public partial class ImagePicker : UserControl
+    public partial class B_ImagePicker : UserControl
     {
-        public ImagePicker()
+        public B_ImagePicker()
         {
             InitializeComponent();
         }

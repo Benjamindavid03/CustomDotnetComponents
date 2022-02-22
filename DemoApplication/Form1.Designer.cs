@@ -28,10 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.imagePicker1 = new Blaze.Winform.ImagePicker();
+            this.b_TextField1 = new Blaze.Winform.B_TextField();
             this.b_TextBox2 = new Blaze.Winform.B_TextBox();
             this.b_TextBox1 = new Blaze.Winform.B_TextBox();
-            this.b_TextField1 = new Blaze.Winform.B_TextField();
             this.SuspendLayout();
+            // 
+            // imagePicker1
+            // 
+            this.imagePicker1.ImageView = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imagePicker1.Location = new System.Drawing.Point(342, 12);
+            this.imagePicker1.Name = "imagePicker1";
+            this.imagePicker1.SelectedImage = null;
+            this.imagePicker1.Size = new System.Drawing.Size(258, 219);
+            this.imagePicker1.TabIndex = 3;
+            // 
+            // b_TextField1
+            // 
+            this.b_TextField1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.b_TextField1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.b_TextField1.FieldFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_TextField1.LabelMessage = "Enter your Label for the Field here";
+            this.b_TextField1.Location = new System.Drawing.Point(31, 81);
+            this.b_TextField1.Name = "b_TextField1";
+            this.b_TextField1.Size = new System.Drawing.Size(288, 61);
+            this.b_TextField1.TabIndex = 2;
             // 
             // b_TextBox2
             // 
@@ -61,27 +82,18 @@
             this.b_TextBox1.WaterMarkFont = null;
             this.b_TextBox1.WaterMarkText = "Your Text Here";
             // 
-            // b_TextField1
-            // 
-            this.b_TextField1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.b_TextField1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.b_TextField1.FieldFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_TextField1.LabelMessage = "Enter your Label for the Field here";
-            this.b_TextField1.Location = new System.Drawing.Point(31, 81);
-            this.b_TextField1.Name = "b_TextField1";
-            this.b_TextField1.Size = new System.Drawing.Size(288, 61);
-            this.b_TextField1.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 253);
+            this.ClientSize = new System.Drawing.Size(656, 251);
+            this.Controls.Add(this.imagePicker1);
             this.Controls.Add(this.b_TextField1);
             this.Controls.Add(this.b_TextBox2);
             this.Controls.Add(this.b_TextBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,6 +104,7 @@
         private Blaze.Winform.B_TextBox b_TextBox1;
         private Blaze.Winform.B_TextBox b_TextBox2;
         private Blaze.Winform.B_TextField b_TextField1;
+        private Blaze.Winform.ImagePicker imagePicker1;
 
 
 

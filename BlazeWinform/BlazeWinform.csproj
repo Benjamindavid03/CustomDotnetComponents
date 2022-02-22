@@ -51,6 +51,12 @@
     <Compile Include="B_TextField.Designer.cs">
       <DependentUpon>B_TextField.cs</DependentUpon>
     </Compile>
+    <Compile Include="ImagePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImagePicker.Designer.cs">
+      <DependentUpon>ImagePicker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +65,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="B_TextField.resx">
       <DependentUpon>B_TextField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagePicker.resx">
+      <DependentUpon>ImagePicker.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

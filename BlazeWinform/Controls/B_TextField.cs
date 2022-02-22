@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Blaze.Winform
+namespace Blaze.Winform.Controls
 {
     public partial class B_TextField : UserControl
     {

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System.Drawing; 
 
-namespace Blaze.Winform
+namespace Blaze.Winform.Controls.Core
 {
     public class B_TextBox : TextBox
     {

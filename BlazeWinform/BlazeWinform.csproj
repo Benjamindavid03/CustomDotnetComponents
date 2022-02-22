@@ -42,31 +42,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\Core\B_TextBox.cs">
+    <Compile Include="Controls\Core\B_TextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Components\B_TextField.cs">
+    <Compile Include="Controls\B_TextField.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\B_TextField.Designer.cs">
+    <Compile Include="Controls\B_TextField.Designer.cs">
       <DependentUpon>B_TextField.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\B_ImagePicker.cs">
+    <Compile Include="Controls\B_ImagePicker.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\B_ImagePicker.Designer.cs">
+    <Compile Include="Controls\B_ImagePicker.Designer.cs">
       <DependentUpon>B_ImagePicker.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Components\Core\B_TextBox.resx">
+    <EmbeddedResource Include="Controls\Core\B_TextBox.resx">
       <DependentUpon>B_TextBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\B_TextField.resx">
+    <EmbeddedResource Include="Controls\B_TextField.resx">
       <DependentUpon>B_TextField.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\B_ImagePicker.resx">
+    <EmbeddedResource Include="Controls\B_ImagePicker.resx">
       <DependentUpon>B_ImagePicker.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.imagePicker1 = new Blaze.Winform.B_ImagePicker();
-            this.b_TextField1 = new Blaze.Winform.B_TextField();
-            this.b_TextBox2 = new Blaze.Winform.B_TextBox();
-            this.b_TextBox1 = new Blaze.Winform.B_TextBox();
+            this.imagePicker1 = new Blaze.Winform.Controls.B_ImagePicker();
+            this.b_TextField1 = new Blaze.Winform.Controls.B_TextField();
+            this.b_TextBox2 = new Blaze.Winform.Controls.Core.B_TextBox();
+            this.b_TextBox1 = new Blaze.Winform.Controls.Core.B_TextBox();
             this.SuspendLayout();
             // 
             // imagePicker1
@@ -101,10 +101,10 @@
 
         #endregion
 
-        private Blaze.Winform.B_TextBox b_TextBox1;
-        private Blaze.Winform.B_TextBox b_TextBox2;
-        private Blaze.Winform.B_TextField b_TextField1;
-        private Blaze.Winform.B_ImagePicker imagePicker1;
+        private Blaze.Winform.Controls.Core.B_TextBox b_TextBox1;
+        private Blaze.Winform.Controls.Core.B_TextBox b_TextBox2;
+        private Blaze.Winform.Controls.B_TextField b_TextField1;
+        private Blaze.Winform.Controls.B_ImagePicker imagePicker1;
     }
 }
 

@@ -1,4 +1,5 @@
-﻿namespace Blaze.Winform
+﻿using Blaze.Winform.Controls.Core;
+namespace Blaze.Winform.Controls
 {
     partial class B_TextField
     {
@@ -29,7 +30,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.b_TextBox2 = new Blaze.Winform.B_TextBox();
+            this.b_TextBox2 = new Blaze.Winform.Controls.Core.B_TextBox();
             this.SuspendLayout();
             // 
             // label1

@@ -4,9 +4,9 @@ D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\De
 D:\Benjamin David\Visual Studio Projects\BlazeWindowsLibrary\BlazeWinform\obj\Debug\BlazeWinform.pdb
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\bin\Debug\Blaze.Winform.dll
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\bin\Debug\Blaze.Winform.pdb
-C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.B_TextBox.resources
-C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.B_TextField.resources
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\BlazeWinform.csproj.GenerateResource.Cache
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.dll
 C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.pdb
-C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.B_ImagePicker.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.Controls.Core.B_TextBox.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.Controls.B_TextField.resources
+C:\Users\UG-31\Documents\GitHub\CustomDotnetComponents\BlazeWinform\obj\Debug\Blaze.Winform.Controls.B_ImagePicker.resources

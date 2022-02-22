@@ -1,4 +1,5 @@
-﻿namespace Blaze.Winform
+﻿using Blaze.Winform.Controls.Core;
+namespace Blaze.Winform.Controls
 {
     partial class B_ImagePicker
     {

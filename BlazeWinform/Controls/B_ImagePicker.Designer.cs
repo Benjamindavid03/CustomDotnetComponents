@@ -78,7 +78,7 @@ namespace Blaze.Winform.Controls
             this.label2.TabIndex = 1;
             this.label2.Text = "Selected Image : ";
             // 
-            // ImagePicker
+            // B_ImagePicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,7 +86,7 @@ namespace Blaze.Winform.Controls
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "ImagePicker";
+            this.Name = "B_ImagePicker";
             this.Size = new System.Drawing.Size(245, 197);
             this.Load += new System.EventHandler(this.B_TextField_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

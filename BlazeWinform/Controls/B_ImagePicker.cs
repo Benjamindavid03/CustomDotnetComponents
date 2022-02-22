@@ -57,14 +57,14 @@ namespace Blaze.Winform.Controls
 
         private void button1_Click(object sender, EventArgs e)
         {
+            openFileDialog1.FileName = "";
             openFileDialog1.Title = "Select the image from your computer";
-            openFileDialog1.Filter = "JPG files(*.jpg) | *.jpg | JPEG files (*.jpeg)|*.jpeg|PNG files (*.png)|*.png";
+            openFileDialog1.Filter = "JPEG files (*.jpeg)|*.jpeg|BMP files (*.bmp)|*.bmp|PNG files (*.png)|*.png";
             openFileDialog1.ShowDialog();
             if (openFileDialog1.FileName != null)
             {
                 pictureBox1.ImageLocation = openFileDialog1.FileName;
             }
-
         }
     }
 }

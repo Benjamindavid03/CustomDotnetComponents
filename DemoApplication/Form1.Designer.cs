@@ -36,6 +36,7 @@
             // 
             // imagePicker1
             // 
+            this.imagePicker1.BackColor = System.Drawing.SystemColors.Control;
             this.imagePicker1.ImageView = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagePicker1.Location = new System.Drawing.Point(342, 12);
             this.imagePicker1.Name = "imagePicker1";

@@ -36,6 +36,7 @@ namespace Blaze.Winform.Controls
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(11, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 13);
@@ -44,11 +45,12 @@ namespace Blaze.Winform.Controls
             // 
             // b_TextBox2
             // 
+            this.b_TextBox2.BackColor = System.Drawing.SystemColors.Window;
             this.b_TextBox2.BackgroundColor = System.Drawing.SystemColors.Window;
             this.b_TextBox2.ForeColor = System.Drawing.Color.Gray;
-            this.b_TextBox2.Location = new System.Drawing.Point(30, 30);
+            this.b_TextBox2.Location = new System.Drawing.Point(39, 27);
             this.b_TextBox2.Name = "b_TextBox2";
-            this.b_TextBox2.Size = new System.Drawing.Size(242, 20);
+            this.b_TextBox2.Size = new System.Drawing.Size(232, 20);
             this.b_TextBox2.TabIndex = 2;
             this.b_TextBox2.Text = "Your Text Here";
             this.b_TextBox2.WaterMarkColor = System.Drawing.Color.Gray;
@@ -64,14 +66,13 @@ namespace Blaze.Winform.Controls
             this.Name = "B_TextField";
             this.Size = new System.Drawing.Size(288, 61);
             this.Load += new System.EventHandler(this.B_TextField_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.B_TextField_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private B_TextBox b_TextBox1;
         private System.Windows.Forms.Label label1;
         private B_TextBox b_TextBox2;
     }

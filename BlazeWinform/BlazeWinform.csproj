@@ -57,6 +57,7 @@
     <Compile Include="Controls\B_ImagePicker.Designer.cs">
       <DependentUpon>B_ImagePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Core\Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

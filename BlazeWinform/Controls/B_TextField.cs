@@ -11,14 +11,11 @@ namespace Blaze.Winform.Controls
 {
     public partial class B_TextField : UserControl
     {
+        public Color GColor1 { get; set; }
+        public Color GColor2 {get;set;}
         public B_TextField()
         {
             InitializeComponent();
-        }
-
-        private void B_TextField_Load(object sender, EventArgs e)
-        {
-
         }
 
         #region ControlProperties
@@ -85,14 +82,65 @@ namespace Blaze.Winform.Controls
         {
             get
             {
-                return this.b_TextBox1.Text;
+                return this.b_TextBox2.Text;
             }
             set
             {
-                this.b_TextBox1.Text = value;
+                this.b_TextBox2.Text = value;
                 base.OnTextChanged(new EventArgs());
             }
         }
+
+        [Browsable(true)]
+        [Category("Extended Properties")]
+        [Description("sets Color 1 in Gradient")]
+        [DisplayName("Gradient Color 1")]
+        /// <summary>
+        /// Property to set/get Gradient Color 1
+        /// </summary>
+        public Color GradientColor1
+        {
+            get
+            {
+                //required for validation for Text property
+                return this.GColor1;
+            }
+            set
+            {
+                this.GColor1 = value;
+            }
+        }
+
+        [Browsable(true)]
+        [Category("Extended Properties")]
+        [Description("sets Color 2 in Gradient")]
+        [DisplayName("Gradient Color 2")]
+        /// <summary>
+        /// Property to set/get Gradient Color 2
+        /// </summary>
+        public Color GradientColor2
+        {
+            get
+            {
+                //required for validation for Text property
+                return this.GColor2;
+            }
+            set
+            {
+                this.GColor2 = value;
+            }
+        }
+
         #endregion
+
+        private void B_TextField_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void B_TextField_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Blaze.Winform.Controls.Core.Utils.Gradient(this.ClientRectangle, GColor1, GColor2);
+        }
     }
 }

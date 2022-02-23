@@ -20,5 +20,10 @@ namespace DemoApplication
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            b_TextField1.BackgroundImage = Blaze.Winform.Controls.Core.Utils.Gradient(b_TextField1.ClientRectangle);
+        }
     }
 }
